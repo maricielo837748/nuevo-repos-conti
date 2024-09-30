@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #4CAF50;
+    color: rgb(204, 125, 145);
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 150px; /* Ajusta el tamaño del logo */
+    margin: 20px 0; /* Espacio alrededor del logo */
+}
+
+h1 {
+    color: #FFD700; /* Color dorado para el título */
+}
+
+nav {
+    text-align: left; /* Alinear a la izquierda */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Elimina el margen */
+}
+
+nav ul li {
+    display: inline; /* Cambia a línea para mostrar horizontalmente */
+    margin-right: 15px; /* Espaciado entre los botones */
+}
+
+nav ul li a {
+    color: #fff; /* Color blanco para los enlaces */
+    text-decoration: none;
+    transition: color 0.3s; /* Transición suave para el color */
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Color dorado al pasar el ratón */
+}
+
+section {
+    padding: 20px;
+}
+
+#productos {
+    background: #7206b9;
+}
+
+.producto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.producto img {
+    width: 100%; /* Ajusta las imágenes a un ancho completo */
+    height: auto; /* Mantiene la proporción */
+}
+
+button {
+    padding: 10px;
+    background: #cc0a92;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s; /* Transición suave para el fondo */
+}
+
+button:hover {
+    background: #d40da3; /* Color más oscuro al pasar el ratón */
+}
+
+#contacto {
+    background: #af0e87;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr); /* Dos columnas */
+    gap: 20px; /* Espacio entre las imágenes */
+}
+
+.image {
+    width: 50%; /* Ancho completo de la celda */
+    height: auto; /* Mantiene la proporción */
+}
+
+.highlight {
+    font-family: Courier New'', sans-serif; /* Cambia la fuente */
+    color: #cc146a; /* Cambia el color, por ejemplo a un tono naranja */
+}
+
